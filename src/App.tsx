@@ -6,6 +6,8 @@ import { UseRef } from "./hooks/useRef";
 import { UseMemo } from "./hooks/useMemo";
 import { UseCallback } from "./hooks/useCallback";
 import { UseContext } from "./hooks/useContext";
+import {CustomHook} from "./hooks/customHook";
+import {LocalStorageCustomHook} from "./hooks/localStorageCustomHook";
 
 function App() {
 
@@ -16,7 +18,9 @@ function App() {
             {/*<UseRef/>*/}
             {/*<UseMemo/>*/}
             {/*<UseCallback/>*/}
-            <UseContext/>
+            {/*<UseContext/>*/}
+            {/*<CustomHook/>*/}
+            <LocalStorageCustomHook/>
         </div>
     );
 }

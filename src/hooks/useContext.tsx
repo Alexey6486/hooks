@@ -1,7 +1,7 @@
 import React from "react";
-import {Main} from "../misc/main";
-import {Alert} from "../misc/alert";
-import {AlertProvider} from "../misc/alertContext";
+import {Main} from "../misc/forUseContext/main";
+import {Alert} from "../misc/forUseContext/alert";
+import {AlertProvider} from "../misc/forUseContext/alertContext";
 
 export const UseContext = () => {
 

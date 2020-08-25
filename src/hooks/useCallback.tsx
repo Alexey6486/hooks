@@ -1,5 +1,5 @@
 import React, {useCallback, useState} from "react";
-import { ItemsList } from "../misc/itemsList";
+import { ItemsList } from "../misc/forUseCallback/itemsList";
 
 export const UseCallback = () => {
 
